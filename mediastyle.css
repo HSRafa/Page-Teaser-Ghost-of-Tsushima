@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 150px) and (max-width: 1000px){
+
+    header img{
+        width: 25vw;
+        height: 15vh;
+        min-width: 100px;
+        min-height: 100px;
+    }
+
+    article {
+       width: 100vw;
+       height: 100vh;
+       padding: 25px;
+       margin: auto;
+    }
+
+    article img{
+        width: 45vw;
+    }
+
+    article p{
+        width: 45vw;
+        height: 100vh;
+    }
+
+    header nav {
+        column-gap: 35px; 
+        max-width: 30px;
+    }
+
+    #nave li{
+        width: 25vw;
+        height: 15vh;
+    }
+
+    #nave {
+        display: none;
+    }
+
+    header a {
+        font-size: 20px;
+    }
+
+    #ghost img {
+        display: none;
+    }
+
+}
+
